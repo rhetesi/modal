@@ -24,3 +24,9 @@ A modal egy egyszerű animáció kíséretében jelenjen meg (pl.: fade)
 A modal egy egyszerű animáció kíséretében tűnjön el bezáráskor
 A modalon kívülre kattintva is automatikusan záródjon be a modal, tűnjön el az overlay réteg
 
+
+
+
+
+Átnézni:
+

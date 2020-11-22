@@ -12,10 +12,20 @@ body {
     /* Ezt a display-t kell majd JS-ből kapcsolgatni! */
     display: none;
     z-index: 9999;
+    /* width: 100%; */
+}
+
+@media screen and (min-width: 560px) {
+    .modal__container {
+        max-width: 50%;
+    }
 }
 
 .modal__container {
     flex-direction: row;
+    /* justify-self: center; */
+    justify-content: center;
+    width: 100%;
 }
 
 button {

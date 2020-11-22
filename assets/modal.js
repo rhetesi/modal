@@ -5,7 +5,7 @@ const modalOnClickHandler = () => {
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
             let turnOn = document.querySelector('.modal__section');
-            turnOn.style.display = "flex";
+            turnOn.style.display = "inherit";
             turnOn.focus();
         })
     }

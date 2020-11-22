@@ -7,8 +7,8 @@ const modalOnClickHandler = () => {
             document.querySelector('.overlay').style.display = 'block';
             let turnOn = document.querySelector('.modal__section');
             turnOn.style.display = 'inherit';
-            document.querySelector('.btn__OK').focus();
-            //document.querySelector('.modal__container').focus();
+            //document.querySelector('.btn__OK').focus();
+            document.querySelector('.btn__close--xType').focus();
         })
     }
 }
@@ -26,8 +26,6 @@ const modalOffClickHandler = () => {
             document.querySelector('.overlay').style.display = 'none';
             let turnOff = document.querySelector('.modal__section');
             turnOff.style.display = 'none';
-            //turnOff.blur();
-            //document.querySelector('.btn__OK').focus();
         })
     }
 }

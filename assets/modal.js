@@ -5,8 +5,8 @@ const modalOnClickHandler = () => {
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
             let turnOn = document.querySelector('.modal__section');
-            turnOn.style.visibility = "visible";
             turnOn.style.display = "flex";
+            turnOn.focus();
         })
     }
 }
@@ -22,8 +22,8 @@ const modalOffClickHandler = () => {
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
             let turnOff = document.querySelector('.modal__section');
-            turnOff.style.visibility = "hidden";
             turnOff.style.display = "none";
+            turnOff.blur();
         })
     }
 }

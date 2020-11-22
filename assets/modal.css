@@ -38,7 +38,7 @@ body {
     width: 100%;
     background-color: rgb(255,255,255);
     position: absolute;
-    top: 20px;
+    top: 25%;
     left: 25%;
     z-index: 9999;       
 }
@@ -88,12 +88,21 @@ button {
 
 }
 
-.btn__close--xType {
+/* .btn__close--xType {
     position: relative;
     top: -.25rem;
     left: 94%;
     font-size: 2rem;
     background-color: rgba(236,236,236,.0);
+} */
+
+
+
+.btn__close--xType {
+    position: relative;
+    /* margin-bottom: 1rem; */
+    top: -1rem;
+    left: 94%;
+    font-size: 2rem;
+    background-color: rgba(236,236,236,.0);
 }
-
-

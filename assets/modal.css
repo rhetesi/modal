@@ -5,5 +5,38 @@
 
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.modal__section {
+    /* Ezt a display-t kell majd JS-ből kapcsolgatni! */
+    display: none;
+    z-index: 9999;
+}
+.modal__container {
+    flex-direction: row;
+}
+
+button {
+    transition: .15s;
+}
+
+.btn__flat {
+    border: 0;
+    padding: 1rem;
+    color: rgb(236,236,236);
+    font-weight: 600;
+}
+
+.btn__modal__on {
+    background-color: rgba(25, 100, 180, 0.75);
+    }
+
+.btn__OK {
+    background-color: rgba(23, 102, 13, 0.75);
+}
+
+.btn__cancel {
+    background-color: rgba(219, 61, 22, 0.75);
+
+}

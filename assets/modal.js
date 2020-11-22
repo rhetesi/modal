@@ -4,9 +4,11 @@ const modalOnClickHandler = () => {
     let buttons = document.querySelectorAll('.btn__modal__on');
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
+            document.querySelector('.overlay').style.display = 'block';
             let turnOn = document.querySelector('.modal__section');
-            turnOn.style.display = "inherit";
+            turnOn.style.display = 'inherit';
             turnOn.focus();
+            
         })
     }
 }
@@ -21,8 +23,9 @@ const modalOffClickHandler = () => {
     let buttons = document.querySelectorAll('.btn__modal');
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', () => {
+            document.querySelector('.overlay').style.display = 'none';
             let turnOff = document.querySelector('.modal__section');
-            turnOff.style.display = "none";
+            turnOff.style.display = 'none';
             turnOff.blur();
         })
     }

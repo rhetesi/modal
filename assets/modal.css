@@ -29,7 +29,6 @@ body {
 .modal__section {
     /* Ezt a display-t kell majd JS-ből kapcsolgatni! */
     display: none;
-    
 }
 
 /* Media measurment of the MODAL */

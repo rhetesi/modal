@@ -15,7 +15,7 @@ KÉSZ A modalt nem dinamikusan JavaScriptből kell létrehozni, hanem már eleve
 Működés:
 
 KÉSZ A modalt bármilyen gomb vagy egyéb elem eseményéhez hozzá lehessen rendelni, tehát pl.: ha rákattintok egy gomra akkor jelenik meg
-A modal mind vertikálisan, mind KÉSZ horizontálisan középre kell legyen pozícionálva
+KÉSZ A modal mind vertikálisan, mind KÉSZ horizontálisan középre kell legyen pozícionálva
 KÉSZ Amikor a modal megnyílik a hátteret egy részben áttetsző réteggel le kell takarni, a modal-t focusba kell helyezni
 
 kép2

@@ -41,11 +41,10 @@ body {
 }
 
 .modal__container {
-    /* height: 50%; */ /* Ha ezt beállítom, akkor a képernyő közepén lesz a modal, de a megjelenését ahhoz kell igazítani. */
     width: 100%;
     background-color: rgb(255,255,255);
     position: absolute;
-    top: 25%;
+    top: calc((100% - 202px)/2); /* Ezzel kerül függőlegesen középre a modalom. */
     z-index: 9999;       
 }
 
